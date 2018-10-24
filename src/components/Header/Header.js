@@ -1,6 +1,9 @@
 import React from 'react'
 import './Header.css'
-import * as E from 'element-react'
+import {
+    Input
+} from 'element-react'
+import http from 'utils/http'
 
 
 class Header extends React.Component {
@@ -16,10 +19,10 @@ class Header extends React.Component {
     render() {
         return (
             <div className="header">
-            	<E.Button type="success">123</E.Button>
-            	<E.TimePicker type="success" onChange={value => this.handleTimeChange(value)}/>
-            	<E.TimeRangePicker currentDates={[]}/>
-            	<E.Dialog title="132" onCancel={this.handleCancel}/>
+                <Input
+                    className="search"
+                    placeholder="搜索"
+                />
             </div>
         )
     }

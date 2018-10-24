@@ -1,5 +1,5 @@
 import React from 'react'
-import { Route, Switch } from 'router'
+import { Route, Switch, Redirect } from 'router'
 
 import Home from './routes/Home'
 
@@ -8,6 +8,7 @@ export default () => (
         <Route
             path="/home"
             component={Home}
-        />    
+        />
+        <Redirect from="/" to="home" />
     </Switch>
 )

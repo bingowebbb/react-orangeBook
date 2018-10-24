@@ -1,5 +1,23 @@
 .header {
+	display: flex;
+	align-items: center;
     width: 100%;
-    height: 80px;
+    height: 50px;
     background: rgba(10,10,10,.1);
+}
+
+.header .search {
+	display: block;
+	margin: 0 auto;
+	width: 80%;
+}
+
+.header .search input {
+	background: rgba(100,100,100,.2);
+	border: 1px solid rgba(150,100,100,.1);
+	height: 30px;
+	border-radius: 15px;
+	padding: 0 20px;
+	color: #FFF;
+	text-align: center;
 }
