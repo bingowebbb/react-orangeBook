@@ -19,9 +19,10 @@ class Header extends React.Component {
     render() {
         return (
             <div className="header">
+                <div className="logo">小橙书</div>
                 <Input
                     className="search"
-                    placeholder="搜索"
+                    placeholder="搜索..."
                 />
             </div>
         )
