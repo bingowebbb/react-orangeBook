@@ -3,7 +3,6 @@ body,p,h1,h2,h3,h4,h5,h6,ul,ol,dl,li,dt,dd{
     margin: 0;
     padding: 0;
     /*字体设置*/
-    font-size: 14px;
     font-family: "Microsoft Yahei",sans-serif;
     color: #ccc;
     /* 去掉列表的原点 */
@@ -14,9 +13,11 @@ body,p,h1,h2,h3,h4,h5,h6,ul,ol,dl,li,dt,dd{
  
 /*可选*/
 html,body{
+    width: 100%;
     height: 100%;
 }
- 
+
+
 /*行内块元素*/
 input,img{
     margin: 0;
@@ -117,3 +118,4 @@ input[type="number"]+div{
     padding-left: 2px;
     cursor: pointer;
 }
+

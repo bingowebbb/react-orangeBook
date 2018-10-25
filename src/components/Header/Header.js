@@ -1,29 +1,25 @@
 import React from 'react'
 import './Header.css'
 import {
-    Input
+    Input,
+    Icon
 } from 'element-react'
-import http from 'utils/http'
-
+import { Menu } from 'components'
 
 class Header extends React.Component {
 
-	handleTimeChange = value => {
-		console.log(value)
-	}
-
-	handleCancel = () => {
-		console.log(1)
-	}
-
     render() {
         return (
-            <div className="header">
-                <div className="logo">小橙书</div>
-                <Input
-                    className="search"
-                    placeholder="搜索..."
-                />
+            <div>
+                <Menu/>
+                <div className="header">
+                    <Icon name="menu" className="menuIcon"/>
+                    <div className="logo">小橙书</div>
+                    <Input
+                        className="search"
+                        placeholder="搜索..."
+                    />
+                </div>
             </div>
         )
     }
