@@ -7,6 +7,7 @@
     background: #fff;
     font-family: 'webfont';
     box-sizing: border-box;
+    box-shadow: 0 2px 6px 0 rgba(0,0,0,0.04);
 }
 
 .menuIcon {
@@ -33,7 +34,7 @@
 
 .header .search input {
 	background: rgba(180,90,30,.1);
-	/*border: .05rem solid rgba(150,100,100,.1);*/
+	border: .05rem solid rgba(150,100,100,.1);
 	border: none;
 	height: 2rem;
 	border-radius: 1rem;
