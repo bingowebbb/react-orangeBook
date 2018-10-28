@@ -1,10 +1,22 @@
-.menu {
-    display: none;
-    position: absolute;
+.menus {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
     z-index: 101;
     margin: 0;
     width: 100%;
-    max-width: 500px;
-    height: 100%;
-    background: rgba(10,10,10,.4);
+    height: 5rem;
+    max-width: 50rem;
+    overflow-x: auto;
+}
+
+.menu {
+	width: 5rem;
+	height: 2rem;
+	border-radius: 2.5rem;
+	border: 1px solid #ddd;
+	text-align: center;
+	line-height: 2rem;
+	color: #000;
+	cursor: pointer;
 }

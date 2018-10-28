@@ -1,5 +1,5 @@
 import React from 'react'
-import { Header, Banner } from 'components'
+import { Header, Banner, Menu } from 'components'
 import './Home.css'
 
 class Home extends React.Component {
@@ -10,6 +10,7 @@ class Home extends React.Component {
         <Header
         	className="header"
         />
+        <Menu/>
       </div>
     )
   }
